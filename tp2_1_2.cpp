@@ -4,16 +4,18 @@
 #define N 4
 #define M 5
 
+typedef double ** matriz;
+typedef double * p_d;
+
 int main(){
 
 	int f,c;
-	double **mt;
+	matriz mt[N][M];
 
 	for(f = 0;f<N; f++){
 
 		for(c = 0;c<M; c++){
 
-			*(*(mt+f)+c)= (double **)malloc(sizeof(double));
 			cprintf("%lf", mt[f][c]);
 		}
 
