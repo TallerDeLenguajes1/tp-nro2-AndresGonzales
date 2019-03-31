@@ -5,7 +5,7 @@
 #define M 5
 
 typedef double ** matriz;
-typedef double * p_d;
+//typedef double * p_d;
 
 int main(){
 
