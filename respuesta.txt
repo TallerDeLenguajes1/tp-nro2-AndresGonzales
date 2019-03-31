@@ -1,0 +1,1 @@
+no puedo ver el archivo tp2_1_2 porque dicho archivo fue creado en el branch opcion_2, por lo tanto, no aparecera en la rama master hasta que no haga el merge entre los dos branchs
